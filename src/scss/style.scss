@@ -1,0 +1,76 @@
+$gray: #D1D1D1;
+$white: #EAF2EF;
+$mainColour: #1D7874;
+$hover: #48a29e;
+$font-stack:  Segoe UI, Helvetica, Arial, sans-serif;
+
+// body {
+// 	font: 100% $font-stack;
+// }
+
+a, a:hover,  a:link, a:visited{
+	text-decoration: none;
+}
+
+strong {
+	font-weight: 700;
+}
+
+img {
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+img:hover {
+	opacity: 0.3;
+}
+
+nav.navbar {
+	width: inherit;
+	top: 0%;
+	position: fixed;
+	left: 0;
+	z-index: 999;
+}
+
+.push-top {
+	margin-top: 10px;
+}
+
+.push-top-more {
+	margin-top: 20px;
+}
+
+.push-bottom {
+	margin-bottom: 10px;
+}
+
+.push-bottom-more {
+	margin-bottom: 20px;
+}
+
+.push-v {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.push-v-more {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.spacer {
+	padding: 60px 0;
+}
+
+.pic-pad {
+	padding: 0;
+}
+
+.bordered {
+	border: 1px solid black;
+}
+
+.width-inherit {
+	width: inherit;
+}
