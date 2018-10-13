@@ -1,3 +1,6 @@
+body {
+  font: 100% Segoe UI, Helvetica, Arial, sans-serif; }
+
 a, a:hover, a:link, a:visited {
   text-decoration: none; }
 
@@ -16,35 +19,6 @@ nav.navbar {
   position: fixed;
   left: 0;
   z-index: 999; }
-
-.push-top {
-  margin-top: 10px; }
-
-.push-top-more {
-  margin-top: 20px; }
-
-.push-bottom {
-  margin-bottom: 10px; }
-
-.push-bottom-more {
-  margin-bottom: 20px; }
-
-.push-v {
-  margin-top: 10px;
-  margin-bottom: 10px; }
-
-.push-v-more {
-  margin-top: 20px;
-  margin-bottom: 20px; }
-
-.spacer {
-  padding: 80px 0; }
-
-.pic-pad {
-  padding: 0; }
-
-.bordered {
-  border: 1px solid black; }
 
 .width-inherit {
   width: inherit; }
